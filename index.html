@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="morty.js"></script>
+    <style>
+        body{
+            background-color: #000;
+            color: #fff;
+            padding:0;
+            margin: 0;
+        }
+        main{
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+        #eyes, #eye, img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img id="anchor" src="morty.png">
+        <div id="eyes">
+            <img class="eye" src="eye.png" style="top: 147px;right: 157px;">
+            <img class="eye" src="eye.png" style="top: 126px;right: 11px;">
+            <img class="eye" src="eye.png" style="top: -171px;right: -168px;">
+            <img class="eye" src="eye.png" style="top: -179px;right: -303px;">
+        </div>
+    </main>  
+</body>
+</html>
